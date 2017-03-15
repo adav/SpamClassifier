@@ -42,8 +42,12 @@ object Main extends App {
     "buy washing",
     "washing repairs",
     "buy washing machine",
-    "watch logan now"
-
+    "watch logan now",
+    "[MEGASHARE] watch Hidden Figures Online 2017 Full",
+    "{@EXCLUSIVA} Rosso Istanbul Streaming ITA 2017 Completo",
+    "Air Conditioner Service Center in Hyderabad",
+    "death by powerlines cancer statistics",
+    "powerline proximity strange lunchtime statistics"
   )
   val testSpam = madeUpSpam.map(name => (name, hashingTf.transform(name.mkString.split(" "))))
   testSpam.foreach {
