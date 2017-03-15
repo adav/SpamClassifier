@@ -11,7 +11,7 @@ object Main extends App {
 
   val sc = new SparkContext(conf)
 
-  val hashingTf = new HashingTF(1000)
+  val hashingTf = new HashingTF(1024)
 
   val data = sc.textFile("dataset_spam.csv").map { line =>
     line.split(",").toList match {
